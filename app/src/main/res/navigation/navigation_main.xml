@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_main">
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_main"
+    app:startDestination="@id/viewExpensesFragment">
 
+    <fragment
+        android:id="@+id/viewExpensesFragment"
+        android:name="com.example.budgetduckandroid.fragments.ViewExpensesFragment"
+        android:label="ViewExpensesFragment" >
+        <action
+            android:id="@+id/action_viewExpensesFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.budgetduckandroid.fragments.AddExpenseFragment"
+        android:label="AddExpenseFragment" />
 </navigation>
