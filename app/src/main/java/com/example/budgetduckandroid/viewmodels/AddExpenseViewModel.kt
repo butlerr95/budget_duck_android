@@ -1,4 +1,4 @@
-package com.example.budgetduckandroid.addexpense
+package com.example.budgetduckandroid.viewmodels
 
 class AddExpenseViewModel {
 }
