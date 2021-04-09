@@ -5,4 +5,5 @@
     <color name="text_on_primary">#fbfbfc</color>
     <color name="text_primary">#363a43</color>
     <color name="text_secondary">#afb5bd</color>
+    <color name="list_item_border">#e0e4ea</color>
 </resources>

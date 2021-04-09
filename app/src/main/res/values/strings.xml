@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Budget Duck</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
 </resources>
